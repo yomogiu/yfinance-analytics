@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 3. Run the pipeline and services:
 ```bash
-python src/main.py
+python main.py
 ```
 
 The system will:
