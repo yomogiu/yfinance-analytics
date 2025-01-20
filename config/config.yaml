@@ -1,0 +1,32 @@
+# API Settings
+api:
+  host: "0.0.0.0"
+  port: 8001
+  reload: true
+
+# Data Settings
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  symbol: "SPY"
+  start_date: "2010-01-01"
+
+# Pipeline Settings
+pipeline:
+  retries: 3
+  timeout: 60
+  priorities:
+    fetch: "HIGH"
+    transform: "MEDIUM"
+    validate: "HIGH"
+    save: "LOW"
+
+# Technical Analysis Settings
+analysis:
+  sma_short: 50
+  sma_long: 200
+  volatility_window: 20
+  rsi_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
