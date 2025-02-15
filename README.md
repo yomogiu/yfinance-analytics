@@ -16,7 +16,7 @@ The system follows a straightforward design pattern with three main components:
 ![Design architecture of the API layer, data pipeline, and ](architecture.png)
 
 ## Notable Features
-- Async execution (but not ureally used at the moment since the pipeline linear)
+- Async execution (but not really used at the moment since the pipeline is linear)
 - Task priority (accepts high/medium/low)
 
 ### Pipeline Design
